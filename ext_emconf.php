@@ -6,7 +6,7 @@ $EM_CONF[$_EXTKEY] = [
     'title' => 'TYPO3 Skins',
     'description' => 'This extension adds a dark skin (dark theme) to the TYPO3 backend. The colors are customizable and can be changed to your favorite colors.',
     'category' => 'be',
-    'version' => '11.1.5',
+    'version' => '13',
     'state' => 'stable',
     'uploadfolder' => false,
     'clearcacheonload' => true,
@@ -17,7 +17,7 @@ $EM_CONF[$_EXTKEY] = [
         [
             'depends' =>
                 [
-                    'typo3' => '12.4.0-12.4.99',
+                    'typo3' => '13.1.0-13.1.99',
                 ],
             'conflicts' =>
                 [],
